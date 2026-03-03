@@ -43,7 +43,6 @@ class ViewController: UIViewController {
             
         } else {
         
-            //view.backgroundColor = .black
             AudioServicesPlaySystemSound(SystemSoundID(b))
             myButton.setTitle("", for: .normal)
             myButton.setTitleColor(.red, for: .normal)
